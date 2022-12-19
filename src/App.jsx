@@ -13,6 +13,7 @@ import PageServices from './components/PageServices/PageServices';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import { NavLinksData } from './data/NavLinksData';
 
 function App() {
 
@@ -21,14 +22,18 @@ function App() {
       <ScrollToTop />
       <Header />
       <Routes>
-        <Route path='/' element={<PageHome />} />
-        <Route path='/contuct-us' element={<PageContactUs />} />
-        <Route path='/our-blog' element={<PageOurBlog />} />
-        <Route path='/Team' element={<PageOurTeam />} />
-        <Route path='/Portfolio' element={<PagePortfolio />} />
-        <Route path='/Services' element={<PageServices />} />
-        
-        <Route path='*' element={<PageNotFound />} />
+      {NavLinksData.map((link) =>
+      (
+        <Route key={link.id}  path={link.url} />
+      ))}
+
+        {/* <Route path='/'           element={<PageHome      />} /> */}
+        {/* <Route path='/contuct-us' element={<PageContactUs />} /> */}
+        {/* <Route path='/our-blog'   element={<PageOurBlog   />} /> */}
+        {/* <Route path='/Team'       element={<PageOurTeam   />} /> */}
+        {/* <Route path='/Portfolio'  element={<PagePortfolio />} /> */}
+        {/* <Route path='/Services'   element={<PageServices  />} /> */}
+        <Route path='*'           element={<PageNotFound  />} />
       </Routes>
       <Footer />
     </BrowserRouter>
