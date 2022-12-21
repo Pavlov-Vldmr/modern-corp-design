@@ -1,0 +1,38 @@
+.servicesItem{
+    display: flex;
+    flex-direction: row;
+}
+
+.servicesItem>img{
+    /* width: 30px; */
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.servicesItem>div>h3{
+    color: black;
+    font-family: OpenSans-Regular;
+    font-size: 16px;
+}
+
+.servicesItem>div>p{
+    color: var(--color-gray);
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.servicesItem>div>a{
+    color: var(--color-gray);
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    transition: all 1s ease-in-out;
+   
+}
+
+.servicesItem>div>a:hover{
+    color: rgb(27, 0, 115);
+   
+}

@@ -1,0 +1,62 @@
+.memberCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.memberCard>img{
+    display: block;
+    width: 225px;
+    height: 225px;
+    margin-top: 20px;
+    background-color: var(--color-gray);
+    background-size: contain;
+    filter: grayscale();
+    transition: all .7s ease-in-out;
+}
+
+.memberCard:hover img{
+    filter: none;
+}
+
+
+
+.memberCard>h4{
+    font-family: OpenSans-Regular;
+    font-size: 16px;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.memberCard>p{
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+    color: var(--color-gray);
+    margin-top: 10px;
+    text-align: center;
+    flex: 1 1 auto;
+    /* min-height: 60px; */
+}
+
+.memberCard>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.memberCard>div>a>img{
+    /* width: 20px; */
+    /* height: 20px; */
+    background-size: cover;
+    margin: 0px 8px;
+    transition: all .7s ease-in-out;
+}
+.memberCard>div>a>img:hover{
+
+    filter: contrast(400%);
+
+}

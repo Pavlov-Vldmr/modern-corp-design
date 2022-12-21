@@ -1,18 +1,13 @@
 import React from "react";
 import PortfolioItem from "./PortfolioItem/PortfolioItem";
 import styles from "./PagePortfolio.module.css"
+import HeadingParagraph from "../HeadingParagraph/HeadingParagraph";
 
 function PagePortfolio() {
     return (
         <>
-            <div className="container">
-                <div className={styles.pagePortfolioText}>
-                <h2>Our portfolio</h2>
-                <hr />
-                <p>Nunc ac lorem vel arcu ultricies volutpat at nec arcu. Ut tempus dignissim est, at iaculis massa blandit commodo. In vitae nunc eget arcu aliquam hendrerit a vel dui. Aliquam a sagittis neque, nec congue eros.</p>
-                </div>
-                
-            </div>
+            <HeadingParagraph title="Our portfolio" text="Nunc ac lorem vel arcu ultricies volutpat at nec arcu. Ut tempus dignissim est, at iaculis massa blandit commodo. In vitae nunc eget arcu aliquam hendrerit a vel dui. Aliquam a sagittis neque, nec congue eros."/>
+            
             <div className="container">
                 <div className={styles.pagePortfolioBlock}>
                     <PortfolioItem />

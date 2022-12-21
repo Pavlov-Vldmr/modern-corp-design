@@ -4,14 +4,6 @@
     gap: 40px;
 }
 
-.pagePortfolioText>p{
-    color: var(--color-gray);
-    text-align: center;
-    margin: 0px 100px 60px 100px;
-    font-family: OpenSans-Regular;
-    font-size: 14px;
-}
-
 @media (max-width: 970px) {
     .pagePortfolioBlock{
         display: grid;
