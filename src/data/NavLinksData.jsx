@@ -1,3 +1,5 @@
+import PagePortfolio from '../components/PagePortfolio/PagePortfolio';
+
 export const NavLinksData = [
     {
         id: 1,
@@ -19,7 +21,7 @@ export const NavLinksData = [
         id: 3,
         title: "Portfolio",
         url:   "/Portfolio",
-        pageElement: "<PagePortfolio />",
+        pageElement: "PagePortfolio",
         cName: ""
        
     },

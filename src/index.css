@@ -1,7 +1,17 @@
+:root{
+  --color-gray: #606060;
+}
+
 @font-face {
   font-family: Lato-Black;
   src: url(../public/fonts/Lato/Lato-Black.ttf);
 }
+
+@font-face {
+  font-family: Lato-Light;
+  src: url(../public/fonts/Lato/Lato-Light.ttf);
+}
+
 @font-face {
   font-family: OpenSans-Regular;
   src: url(../public/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
@@ -26,6 +36,19 @@ code {
   padding: 0px;
 }
 
+h2{
+  text-align: center;
+  color: black;
+  font-size: 33px;
+  font-family: Lato-Light;
+  margin-top: 60px;
+}
+
+
+hr{
+  margin: 30px auto;
+  width: 150px;
+}
 .container{
   width: 100%;
   max-width: 960px;

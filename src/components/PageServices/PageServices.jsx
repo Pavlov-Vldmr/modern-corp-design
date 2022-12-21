@@ -1,9 +1,9 @@
 import React from "react";
 
-function Services(){
+function PageServices(){
     return(
         <></>
     );
 }
 
-export default Services;
+export default PageServices;

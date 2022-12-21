@@ -22,17 +22,13 @@ function App() {
       <ScrollToTop />
       <Header />
       <Routes>
-      {NavLinksData.map((link) =>
-      (
-        <Route key={link.id}  path={link.url} />
-      ))}
 
-        {/* <Route path='/'           element={<PageHome      />} /> */}
-        {/* <Route path='/contuct-us' element={<PageContactUs />} /> */}
-        {/* <Route path='/our-blog'   element={<PageOurBlog   />} /> */}
-        {/* <Route path='/Team'       element={<PageOurTeam   />} /> */}
-        {/* <Route path='/Portfolio'  element={<PagePortfolio />} /> */}
-        {/* <Route path='/Services'   element={<PageServices  />} /> */}
+        <Route path='/'           element={<PageHome      />} />
+        <Route path='/contuct-us' element={<PageContactUs />} />
+        <Route path='/our-blog'   element={<PageOurBlog   />} />
+        <Route path='/Team'       element={<PageOurTeam   />} />
+        <Route path='/portfolio'  element={<PagePortfolio />} />
+        <Route path='/Services'   element={<PageServices  />} />
         <Route path='*'           element={<PageNotFound  />} />
       </Routes>
       <Footer />

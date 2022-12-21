@@ -30,9 +30,16 @@ header{
     text-shadow: 0px 0px 10px #696969;
 }
 
+.headerNav>li{
+    /* width: 100%; */
+    /* width: 100px; */
+    /* width: max-content; */
+}
+
 .headerNav>li>a{
+   
     text-decoration: none;
-    color: #909090;
+    color: var(--color-gray);
     text-transform: uppercase;
     font-family: OpenSans-Regular;
     font-size: 16px;
@@ -41,7 +48,5 @@ header{
 
 .headerNav>li>a:hover{
     color: #545454;
-
-
 }
 
