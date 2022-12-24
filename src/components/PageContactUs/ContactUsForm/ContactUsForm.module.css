@@ -1,0 +1,34 @@
+.cuntactUsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.cuntactUsForm>input{
+    width: 100%;
+    height: 40px;
+    background-color: #edf1f2;
+    color: var(--color-gray);
+    font-family: OpenSans-Regular;
+    font-size: 16px;
+    padding-left: 13px;
+    border: none;
+    margin-top: 10px;
+}
+
+.cuntactUsForm>textarea{
+    width: 100%;
+    height: 220px;
+    background-color: #edf1f2;
+    color: var(--color-gray);
+    font-family: OpenSans-Regular;
+    font-size: 16px;
+    padding-left: 13px;
+    padding-top: 10px;
+    border: none;
+    margin-top: 10px;
+    resize: none;
+}
+
+.cuntactUsForm>input[type=submit]{
+    color: red;
+}

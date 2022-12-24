@@ -1,0 +1,22 @@
+.contactUsInner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.contactUsInner>div>h3{
+    color: black;
+    font-family: OpenSans-Regular;
+    font-size: 16px;
+}
+
+.contactUsInner>div>p{
+    margin-top: 20px;
+    color: var(--color-gray);
+    font-family: OpenSans-Regular;
+    font-size: 14px;
+}
+
+.googleMap{
+    margin-top: 20px;
+}

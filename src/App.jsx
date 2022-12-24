@@ -22,7 +22,6 @@ function App() {
       <ScrollToTop />
       <Header />
       <Routes>
-
         <Route path='/'           element={<PageHome      />} />
         <Route path='/contuct-us' element={<PageContactUs />} />
         <Route path='/our-blog'   element={<PageOurBlog   />} />
