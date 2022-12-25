@@ -1,0 +1,96 @@
+.bannerInnter{
+    height: 100vh;
+    background-color: #2f3030;
+}
+
+.bannerInnter> div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    /* color: white; */
+
+}
+
+.bannerInnter>div> span{
+    color: white;
+    font-size: 14px;
+font-family: "Lato-Light";
+margin-top: 0px;
+position: relative;
+
+}
+
+.bannerInnter>div>span::after, 
+.bannerInnter>div>span::before{
+    margin-top: 6px;
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #979898;
+}
+
+.bannerInnter>div>span::before{
+    left: -15px;
+}
+.bannerInnter>div>span::after{
+    right: -15px;
+}
+.bannerInnter>div> h1{
+    font-size: 38px;
+    font-family: 'LatoBlack';
+    text-transform: uppercase;
+    color: white;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+}
+
+.bannerInnter>div>h2::after, 
+.bannerInnter>div>h2::before{
+    margin-top: 7px;
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 4px;
+    
+    background-color: #979898;
+    clip-path: polygon(0% 0%, 0% 100%, 0 100%, 0 28%, 100% 28%, 100% 75%, 0 76%, 0 100%, 100% 100%, 100% 0%);
+}
+
+.bannerInnter>div>h2::before{
+    left: -120px;
+}
+.bannerInnter>div>h2::after{
+    right: -120px;
+}
+
+
+.bannerInnter>div> h2{
+    margin-top: 0px;
+    color: white;
+    font-size: 14px;
+    font-family: "Lato-Light";
+    position: relative;
+
+}
+.bannerInnter>div>a{
+    color: white;
+    border: 1px solid #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 19px 40px 21px 40px;
+    margin-top: 80px;
+    position: relative;
+    transition: all .3s ease-in-out;
+}
+
+.bannerInnter>div>a:hover {
+    color: var(--text-gray);
+    box-shadow: inset 400px 0 0 0 #ffffff;
+  }

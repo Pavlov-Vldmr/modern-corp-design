@@ -1,0 +1,24 @@
+.ourBlogInner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+
+
+@media (max-width: 1320px)  { 
+    .ourBlogInner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* grid-template-columns: repeat(2, 1fr); */
+        /* gap: 40px; */
+        flex-direction: column;
+    }
+
+    .ourBlogInner>div{
+        max-width: 420px;
+    }
+
+
+}

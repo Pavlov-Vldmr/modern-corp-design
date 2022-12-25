@@ -15,7 +15,7 @@ function Footer() {
                         <Link><img src="./images/icons/socials/Twitter.png" alt="Twitter" /></Link>
                     </div>
                     <p>
-                        © 2014 WebDesign Studio. All rights reserved. Designed and deve
+                        © 2014 WebDesign Studio. All rights reserved. Designed
                     </p>
                 </div>
             </div>

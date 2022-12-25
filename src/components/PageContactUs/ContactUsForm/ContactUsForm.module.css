@@ -30,5 +30,26 @@
 }
 
 .cuntactUsForm>input[type=submit]{
-    color: red;
+    color: white;
+    background-color: #2980b9;
+    width: 50%;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    padding-left: 0px;
+}
+
+.cuntactUsForm>input[type=submit]:hover{
+    color: white;
+    background-color: #337bac;
+    box-shadow: inset 0px 0px 4px #33729c;
+    /* width: 50%; */
+    /* cursor: pointer; */
+}
+
+.cuntactUsForm>input[type=submit]:disabled 
+ {
+    color: rgb(144, 144, 144);
+    background-color: #d4d4d4;
+
+    cursor: auto;
 }
