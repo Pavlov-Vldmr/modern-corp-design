@@ -1,6 +1,8 @@
 .bannerInnter{
     height: 100vh;
     background-color: #2f3030;
+transition: all 0.7s ease-in-out;
+
 }
 
 .bannerInnter> div{

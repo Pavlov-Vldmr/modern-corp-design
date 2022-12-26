@@ -1,13 +1,14 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useMatch } from "react-router-dom";
 
 import styles from "./Header.module.css";
 import { NavLinksData } from "../../data/NavLinksData";
 
 function Header() {
+    const match = useMatch("/");
     return (
         <>
-            <header>
+            <header className={ match ? styles.themeHome : null}>
                 <div className="container">
                     <nav className={styles.headerNav}>
                         <div>

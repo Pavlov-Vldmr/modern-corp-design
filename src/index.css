@@ -1,5 +1,12 @@
 :root {
   --color-gray: #606060;
+
+ 
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
 }
 
 @font-face {

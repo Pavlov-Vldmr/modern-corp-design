@@ -1,5 +1,7 @@
 footer{
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    display: flex;
+    order: 10;
     background-color: black;
 }
 

@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 
 // import logo from './logo.svg';
 
@@ -13,14 +13,16 @@ import PageServices from './components/PageServices/PageServices';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
-import { NavLinksData } from './data/NavLinksData';
+
 
 function App() {
 
   return (
     <BrowserRouter>
       <ScrollToTop />
+
       <Header />
+
       <Routes>
         <Route path='/'           element={<PageHome      />} />
         <Route path='/contuct-us' element={<PageContactUs />} />
