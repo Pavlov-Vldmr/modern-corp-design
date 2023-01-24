@@ -3,6 +3,7 @@ footer{
     display: flex;
     order: 10;
     background-color: black;
+    margin-top: 100px;
 }
 
 .footerInner{

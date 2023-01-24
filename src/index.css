@@ -65,3 +65,17 @@ hr {
 .active {
   color: #2980b9 !important;
 }
+
+/* .slick-track{
+  display: flex !important;
+  justify-content: space-between !important;
+} */
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}
